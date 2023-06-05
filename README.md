@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Esta aplicação em React foi feita baseada no meu primeiro projeto prático de html e css: https://github.com/JohanGarciaO/primeiro-projeto-html-css
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
