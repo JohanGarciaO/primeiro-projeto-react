@@ -1,0 +1,45 @@
+.comment-card {
+    width: 70%;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header-comment-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 10px;
+}
+
+.comment-profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comment-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.profile-desc {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.content-card {
+    font-size: 14px;
+}
+
+@media(max-width: 768px){
+    .comment-card{
+        width: 100%;
+    }
+}
